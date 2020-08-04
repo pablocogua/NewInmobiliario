@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pcogua\\source\\repos\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj": {}
+    "C:\\Users\\pcogua\\source\\repos\\NewInmobiliario\\NewInmobiliario\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pcogua\\source\\repos\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj": {
+    "C:\\Users\\pcogua\\source\\repos\\NewInmobiliario\\NewInmobiliario\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pcogua\\source\\repos\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj",
+        "projectUniqueName": "C:\\Users\\pcogua\\source\\repos\\NewInmobiliario\\NewInmobiliario\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj",
         "projectName": "InmobiliarioAPI",
-        "projectPath": "C:\\Users\\pcogua\\source\\repos\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj",
+        "projectPath": "C:\\Users\\pcogua\\source\\repos\\NewInmobiliario\\NewInmobiliario\\Inmobiliario\\InmobiliarioAPI\\InmobiliarioAPI.csproj",
         "packagesPath": "C:\\Users\\pcogua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pcogua\\source\\repos\\Inmobiliario\\InmobiliarioAPI\\obj\\",
+        "outputPath": "C:\\Users\\pcogua\\source\\repos\\NewInmobiliario\\NewInmobiliario\\Inmobiliario\\InmobiliarioAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pcogua\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,26 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

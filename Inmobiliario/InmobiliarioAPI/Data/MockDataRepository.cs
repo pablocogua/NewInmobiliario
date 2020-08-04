@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InmobiliarioAPI.Data
 {
-    public class MockDataRepository : IPropertysRepository
+    public class MockDataRepository : IPropertiesRepository
     {
         public IEnumerable<Property> GetProperties()
         {
